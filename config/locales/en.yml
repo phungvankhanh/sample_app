@@ -1,12 +1,26 @@
 en:
   app_name: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      sample_app: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      about: "About"
+      contact: "Contact"
+      the: "The"
+      ruby_rails: "Ruby on Rails Tutorial"
+      author_name: "Michael Hartl"
+      news: "News"
   static_pages:
     home:
       home: "Home"
       this_is_home_page: "This is the home page for the"
       ruby_rails: "Ruby on Rails Tutorial"
       sample_app: "sample application."
+      sign_up_now: "Sign up now!"
     help:
       help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the"
@@ -25,3 +39,11 @@ en:
       teach_web: "to teach web development with"
       ruby_on_rails: "Ruby on Rails."
       this_is_sample: "This is the sample application for the tutorial."
+    contact:
+      contact: "Contact"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "Contact page"
+  users:
+    new:
+      sign_up: "Sign up"
+      this_will_signup: "This will be a signup page for new users."

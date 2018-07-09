@@ -1,0 +1,20 @@
+<footer class="footer">
+  <small>
+    <%= t "layouts.footer.the" %><%= link_to "http://www.railstutorial.org/" do %>
+      <%= t "layouts.footer.ruby_rails" %>
+      <% end %>
+    <%= t "layouts.footer.by" %><%= link_to "http://www.michaelhartl.com/" do %>
+      <%= t "layouts.footer.author_name" %>
+      <% end %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("layouts.footer.about"), about_path %></li>
+      <li><%= link_to t("layouts.footer.contact"), contact_path %></li>
+      <li><%= link_to "http://news.railstutorial.org/" do %>
+          <%= t "layouts.footer.news" %>
+          <% end %>
+        </li>
+    </ul>
+  </nav>
+</footer>
