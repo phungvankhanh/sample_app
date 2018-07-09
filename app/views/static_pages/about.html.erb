@@ -1,16 +1,26 @@
-<% provide :title, "About" %>
+<% provide :title, t("static_pages.about.about") %>
 <!DOCTYPE html>
 <html>
   <body>
-    <h1>About</h1>
+    <h1><%= t "static_pages.about.about" %></h1>
     <p>
-      The <a href="http://www.railstutorial.org/"><em>Ruby on Rails
-      Tutorial</em></a> is a
-      <a href="http://www.railstutorial.org/book">book</a> and
-      <a href="http://screencasts.railstutorial.org/">screencast series</a>
-      to teach web development with
-      <a href="http://rubyonrails.org/">Ruby on Rails</a>.
-      This is the sample application for the tutorial.
+      <%= t "static_pages.about.the" %>
+      <%= link_to "http://www.railstutorial.org/" do %>
+        <em><%= t "static_pages.about.ruby_rails" %></em>
+        <% end %>
+      <%= t "static_pages.about.is_a" %>
+      <%= link_to "http://www.railstutorial.org/book" do %>
+        <%= t "static_pages.about.book" %>
+        <% end %>
+      <%= t "static_pages.about.and" %>
+      <%= link_to "http://screencasts.railstutorial.org/" do %>
+        <%= t "static_pages.about.screencast_series" %>
+        <% end %>
+      <%= t "static_pages.about.teach_web" %>
+      <%= link_to "http://rubyonrails.org/" do %>
+        <%= t "static_pages.about.ruby_on_rails" %>
+        <% end %>
+      <%= t "static_pages.about.this_is_sample" %>
     </p>
   </body>
 </html>
