@@ -7,6 +7,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users_title: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      account: "Account "
     footer:
       about: "About"
       contact: "Contact"
@@ -51,6 +56,14 @@ en:
   shared:
     error:
       the_form_contains: "The form contains"
-  controllers_users:
-    welcome: "Welcome to the Sample App!"
-    danger: "You don't have permission for that!"
+  users:
+    create:
+      welcome: "Welcome to the Sample App!"
+    show:
+      danger: "You don't have permission for that!"
+  sessions:
+    create:
+      invalid_email_pass: "Invalid email/password combination"
+    log_in: "Log in"
+    new_users: "New user? "
+    sign_up_now: "Sign up now!"
