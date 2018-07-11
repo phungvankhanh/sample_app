@@ -57,13 +57,15 @@ en:
     error:
       the_form_contains: "The form contains"
   users:
-    create:
-      welcome: "Welcome to the Sample App!"
     show:
       danger: "You don't have permission for that!"
+    create:
+      welcome: "Welcome to the Sample App!"
   sessions:
     create:
       invalid_email_pass: "Invalid email/password combination"
     log_in: "Log in"
     new_users: "New user? "
     sign_up_now: "Sign up now!"
+    new:
+      remember_me: "Remember me on this computer"
