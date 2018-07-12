@@ -8,7 +8,8 @@
         <% if logged_in? %>
           <li><%= link_to t("layouts.header.users_title"), "#" %></li>
           <li class="dropdown">
-            <%= link_to "#", class: "dropdown-toggle" data: { toggle: "dropdown"} do %>
+            <%= link_to "#", class: "dropdown-toggle",
+              data: { toggle: "dropdown" } do %>
               <%= t "layouts.header.account"%>
               <b class="caret"></b>
             <% end %>
