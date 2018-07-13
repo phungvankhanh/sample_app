@@ -3,3 +3,4 @@ length :
   max_email : 255
   max_password : 6
   gravatar_size : 80
+  size : 50

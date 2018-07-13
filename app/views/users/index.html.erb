@@ -1,0 +1,9 @@
+<% provide :title, t(".index") %>
+<% provide :button_text, t(".save") %>
+<h1><%= t(".index") %></h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+    <%= render @users %>
+</ul>

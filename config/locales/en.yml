@@ -48,19 +48,35 @@ en:
       contact: "Contact"
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "Contact page"
+  shared:
+    error:
+      the_form_contains: "The form contains"
   users:
     new:
       sign_up: "Sign up"
       this_will_signup: "This will be a signup page for new users."
       create_my_account: "Create my account"
-  shared:
-    error:
-      the_form_contains: "The form contains"
-  users:
     show:
       danger: "You don't have permission for that!"
     create:
       welcome: "Welcome to the Sample App!"
+    update:
+      update: "Update Successfully"
+    destroy:
+      destroy: "User deleted"
+    logged_in_user: "Please log in."
+    edit:
+      edit: "Edit user"
+      update_profile: "Update your profile"
+      change: "change"
+      save: "Save"
+    users:
+      you_sure: "You sure? "
+      delete: "Delete"
+    index:
+      index: "All users"
+      save: "Save"
+    user_not_found: "User not found"
   sessions:
     create:
       invalid_email_pass: "Invalid email/password combination"
