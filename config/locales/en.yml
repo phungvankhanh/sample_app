@@ -21,6 +21,10 @@ en:
       news: "News"
   user_mailer:
     account_activation: "Account activation"
+    activate: "Activate"
+    password_reset_title: "Password reset"
+    password_reset:
+      reset_password: "Reset password"
   static_pages:
     home:
       home: "Home"
@@ -91,6 +95,22 @@ en:
     sign_up_now: "Sign up now!"
     new:
       remember_me: "Remember me on this computer"
+      forgot_password: "Forgot password"
   account_activations:
     account_activated: "Account activated!"
     invalid_activation: "Invalid activation link"
+  password_resets:
+    edit:
+      reset_password: "Reset password"
+      update_password: "Update password"
+    new:
+      forgot_password: "Forgot password"
+      submit: "Submit"
+    create:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      can_not_empty: "can't be empty"
+    update:
+      password_been_reset: "Password has been reset."
+    check_expiration:
+      password_reset_expired: "Password reset has expired."

@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.select_things.paginate(page: params[:page])
+    @users = User.select_things.paginate page: params[:page]
   end
 
   def new
@@ -23,7 +23,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    return if @user && @user.activated
+    redirect_to root_url
+  end
 
   def edit; end
 
