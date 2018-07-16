@@ -64,6 +64,9 @@ en:
       post: "Post"
     user_info:
       view_my_profile: "view my profile"
+    stats:
+      following: "following"
+      followers: "followers"
   users:
     new:
       sign_up: "Sign up"
@@ -93,6 +96,15 @@ en:
       index: "All users"
       save: "Save"
     user_not_found: "User not found"
+    show_follow:
+      view_my_profile: "view my profile"
+      microposts: "Microposts:"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"
   sessions:
     create:
       invalid_email_pass: "Invalid email/password combination"
