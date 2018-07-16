@@ -1,6 +1,8 @@
 en:
   app_name: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  application:
+    log_in: "Please log in."
   layouts:
     header:
       sample_app: "sample app"
@@ -57,6 +59,11 @@ en:
   shared:
     error:
       the_form_contains: "The form contains"
+    micropost:
+      compose_new: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view_my_profile: "view my profile"
   users:
     new:
       sign_up: "Sign up"
@@ -65,6 +72,7 @@ en:
       submit: "Submit"
     show:
       danger: "You don't have permission for that!"
+      microposts_name: "Microposts "
     create:
       welcome: "Welcome to the Sample App!"
       please_check_mail: "Please check your email to activate your account."
@@ -114,3 +122,13 @@ en:
       password_been_reset: "Password has been reset."
     check_expiration:
       password_reset_expired: "Password reset has expired."
+  microposts:
+    you_sure: "You sure?"
+    posted: "Posted "
+    ago: "ago."
+    create:
+      micro_created: "Micropost created!"
+    destroy:
+      micro_deleted: "Micropost deleted"
+  shoud_less_5_MB: "should be less than %{size}MB"
+  max_file: "Maximum file size is %{size}MB. Please choose a smaller file."

@@ -24,8 +24,11 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user && @user.activated
-    redirect_to root_url
+    if @user && @user.activated
+      @microposts = @user.microposts.paginate page: params[:page]
+    else
+      redirect_to root_url
+    end
   end
 
   def edit; end
