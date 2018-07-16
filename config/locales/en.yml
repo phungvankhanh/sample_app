@@ -19,6 +19,8 @@ en:
       ruby_rails: "Ruby on Rails Tutorial"
       author_name: "Michael Hartl"
       news: "News"
+  user_mailer:
+    account_activation: "Account activation"
   static_pages:
     home:
       home: "Home"
@@ -56,10 +58,12 @@ en:
       sign_up: "Sign up"
       this_will_signup: "This will be a signup page for new users."
       create_my_account: "Create my account"
+      submit: "Submit"
     show:
       danger: "You don't have permission for that!"
     create:
       welcome: "Welcome to the Sample App!"
+      please_check_mail: "Please check your email to activate your account."
     update:
       update: "Update Successfully"
     destroy:
@@ -80,8 +84,13 @@ en:
   sessions:
     create:
       invalid_email_pass: "Invalid email/password combination"
+      account_not_activated: "Account not activated. "
+      check_your_email: "Check your email for the activation link."
     log_in: "Log in"
     new_users: "New user? "
     sign_up_now: "Sign up now!"
     new:
       remember_me: "Remember me on this computer"
+  account_activations:
+    account_activated: "Account activated!"
+    invalid_activation: "Invalid activation link"
