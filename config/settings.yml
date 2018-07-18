@@ -8,3 +8,4 @@ limit_size: 400
 content: 140
 size_image: 5
 image_style: "image/jpeg,image/gif,image/png"
+size: 30
